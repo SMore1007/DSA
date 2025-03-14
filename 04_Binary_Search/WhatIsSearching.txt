@@ -1,0 +1,13 @@
+Searching is a method to find some relevant information in a data set
+
+#Binary Search:-
+  Binary Search is an algorithm that can be used to search an 
+  element in a sorted dataset
+
+  By sorted, we mean that the elements will either be in a 
+  natural increasing or decreasing order.
+
+  ex. 10, 20, 30, 40, ... increasing order
+      100, 80, 50 ,30,10 .... decreasing order
+
+      
