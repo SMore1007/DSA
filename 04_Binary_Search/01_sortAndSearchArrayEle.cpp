@@ -23,21 +23,23 @@ void sortArray(vector<int>&Arr, int length)
 }
 
 int binarySearch(vector<int>& Arr, int ele) {
-    int start = 0;
-    int end = Arr.size() - 1;
+    int start = 0;  // start index
+    int end = Arr.size() - 1; // end index
     
     while (start <= end)
     {
-        int mid = start + (end - start) / 2;
+        int mid = start + (end - start) / 2;  // find the current mid
 
         if (ele == Arr[mid]) 
         {
             return mid;
         } else if (ele > Arr[mid]) 
         {
+            // search in left half
             start = mid + 1;
         } else
         {
+            // Search in right half
             end = mid - 1;
         }
     }
