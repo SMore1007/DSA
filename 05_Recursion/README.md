@@ -11,10 +11,6 @@ A recursive function is often defined using a recursive equation, which consists
 - **Base Case**: The terminating condition that stops recursion.
 - **Recursive Case**: The rule that breaks the problem into smaller subproblems and calls the function recursively.
 
-For example, the recursive equation for computing the factorial of a number (n!) is:
-
-\[ f(n) = n \times f(n-1) \quad \text{where} \quad f(0) = 1 \]
-
 ## General Framework of Recursion
 To write a recursive function, follow these general steps:
 
