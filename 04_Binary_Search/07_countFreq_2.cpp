@@ -62,6 +62,6 @@ int main()
     vector<int> arr = {2,2,2,3,4,5,6,6,6,6,6,6,8,9,10};
     int firstIndex = findFirstIndexOfK(arr, k);
     int lastIndex = findLastIndexOfK(arr, k);
-    cout << "Total Occurrence of " << k << " is: "<<lastIndex - firstIndex << " times." << endl;
+    cout << "The freuency of element " << k << " is: "<< lastIndex - firstIndex + 1 << endl;
     return 0;
 }
