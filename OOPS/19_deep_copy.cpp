@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstring>
 
+using namespace std;
+
 class DeepCopyExample {
 private:
     char* name;
@@ -25,7 +27,9 @@ public:
 
     // Destructor
     ~DeepCopyExample() {
-        delete[] name;  // Free allocated memory
+        
+        cout << "Delete everythings" << endl;
+        // delete[] name;  // Free allocated memory
     }
 };
 
