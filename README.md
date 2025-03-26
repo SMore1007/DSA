@@ -1,4 +1,4 @@
-# Data Structure and Algorithm With Object Oriented Programming
+# Data Structure and Algorithm And Object Oriented Programming
 
 
 This repository contains implementations of various data structures and algorithms and Object-Oriented Programming (OOP) principles.
