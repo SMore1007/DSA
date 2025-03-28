@@ -35,4 +35,4 @@ Queue data structure implementation, including Circular Queue and Priority Queue
 
 ### 8. Object-Oriented Programming (OOPs)
 Concepts of OOPs such as Encapsulation, Inheritance, Polymorphism, and Abstraction.  
-🔗 [OOPs](https://github.com/SMore1007/DSA-OOPs/tree/main/08_OOPs)
+🔗 [OOPs](https://github.com/SMore1007/DSA-OOPs/tree/main/OOP's)
